@@ -10,8 +10,20 @@ function.reactor.activated = requires ("function.reactor.activated")
 
 while true do
   
-if % == 20 and function.reactor.activated == false
+if % < 20 and function.reactor.activated == false
     then
+ Setfunction.reactor.activated == true
+
+  elseif 
     
-  function.reactor.activated == true
-  
+% > 80 and function.reactor.activated == true 
+    then
+  Setfunction.reactor.activated == false
+    
+    os.sleep(1)
+    
+end
+    
+ 
+    
+
